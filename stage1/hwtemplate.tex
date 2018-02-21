@@ -1,0 +1,49 @@
+% ---------
+%  Compile with "pdflatex hw0".
+% --------
+%!TEX TS-program = pdflatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[11pt]{article}
+\usepackage{jeffe,handout,graphicx}
+\usepackage[utf8]{inputenc}		% Allow some non-ASCII Unicode in source
+\usepackage{tikz}
+\usepackage{listings}
+\usetikzlibrary{automata,positioning}
+
+% =========================================================
+%   Define common stuff for solution headers
+% =========================================================
+\Class{CS 411}
+\Semester{Spring 2018}
+\Authors{1}
+\AuthorOne{Project 5}{GucciGang}
+\def\Sym#1{\texttt{\color{BrickRed}#1}}
+\def\checkmark{\tikz\fill[scale=0.4](0,.35) -- (.25,0) -- (1,.7) -- (.25,.15) -- cycle;} 
+\newcolumntype{L}{>{$}l<{$}} % math-mode version of "l" column type
+\lstset{
+  basicstyle=\itshape,
+  xleftmargin=3em,
+  literate={->}{$\rightarrow$}{2}
+           {α}{$\alpha$}{1}
+           {δ}{$\delta$}{1}
+}
+%\Section{}
+
+% =========================================================
+\begin{document}
+
+% ---------------------------------------------------------
+
+
+\HomeworkHeader{0}{1}	% homework number, problem number
+
+\begin{solution}
+Problem 1
+\begin{itemize}
+\item hey
+\end{itemize}
+\end{solution}
+
+
+\end{document}
